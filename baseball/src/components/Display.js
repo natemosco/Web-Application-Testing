@@ -6,8 +6,8 @@ export default function Display() {
 
     return (
         <div>
-            <h2>{`Balls: ${balls}`}</h2>
-            <h2>{`Strikes: ${strikes}`}</h2>
+            <h2 data-testid="present">{`Balls: ${balls}`}</h2>
+            <h2 data-testid="present">{`Strikes: ${strikes}`}</h2>
             <Dashboard balls={balls} setBalls={setBalls} strikes={strikes} setStrikes={setStrikes}></Dashboard>
         </div>
     )

@@ -34,10 +34,10 @@ export default function Dashboard(props) {
     }
     return (
         <div>
-            <button onClick={handleStrike}>Strike</button>
-            <button onClick={handleBall}>Ball</button>
-            <button onClick={handleFoul}>Foul</button>
-            <button onClick={handleHit}>Hit</button>
+            <button title="button" onClick={handleStrike}>Strike</button>
+            <button title="button" onClick={handleBall}>Ball</button>
+            <button title="button" onClick={handleFoul}>Foul</button>
+            <button title="button" onClick={handleHit}>Hit</button>
         </div>
     )
 }
